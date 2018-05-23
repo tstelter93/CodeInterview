@@ -3,8 +3,12 @@ package Chap1_ArraysAndStrings;
 public class ArrayAndString {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.print("Array and Strings");
+		System.out.print("Array and Strings Main" +
+	        "\n------------------------------------- \n");
+		
+		UniqueString test = new UniqueString();
+		
+		test.isUniqueString("Tim");
 	}
 
 }
