@@ -8,7 +8,11 @@ public class ArrayAndString {
 		
 		UniqueString test = new UniqueString();
 		
-		test.isUniqueString("Tim");
+		// This is unique
+		test.isUniqueString("qwertyuioplkjhgfdsa");
+		
+		// This is not unique
+		test.isUniqueString("qwwq");
 	}
 
 }
