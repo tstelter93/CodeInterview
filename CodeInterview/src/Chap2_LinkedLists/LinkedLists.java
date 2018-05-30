@@ -7,4 +7,13 @@ public class LinkedLists {
 		System.out.print("LinkedLists");
 	}
 
+	
+	/**
+	 * Interview question "Remove Dups"
+	 */
+	public void removeDups() {
+		
+		
+	}
+	
 }
